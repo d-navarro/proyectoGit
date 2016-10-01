@@ -96,7 +96,7 @@ int main(void){
    valor = servoWrite( SERVO0, servoAngle );
    servoAngle = servoRead( SERVO0 );
 
-   digitalWrite( LEDB, 1 );
+   digitalWrite( LEDR, 1 );
 
    /* ------------- REPETIR POR SIEMPRE ------------- */
    while(1) {
